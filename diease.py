@@ -4,8 +4,8 @@ from streamlit_option_menu import option_menu
 import numpy as np
 
 # Load saved models
-diabetes = pickle.load(open('diabetes.sav', 'rb'))
-heart = pickle.load(open('heart.sav', 'rb'))
+diabetes = pickle.load(open('C:/Users/Bharath/OneDrive/Desktop/ml as api/python/diabetes_model.sav','rb'))
+heart = pickle.load(open('C:/Users/Bharath/OneDrive/Desktop/ml as api/python/heart_model.sav','rb'))
 
 # Sidebar menu
 with st.sidebar:
